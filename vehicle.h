@@ -14,5 +14,7 @@ class vehicle{
         vehicle();
         vehicle(person arg_person, bool arg_ejection_seat, bool arg_helmet,bool arg_seatbelt, bool arg_airbag);
         Json::Value dump2json();
+        double CAL_SURVIVING_SCORE();
+        
 };
 #endif

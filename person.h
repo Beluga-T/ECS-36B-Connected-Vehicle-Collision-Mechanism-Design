@@ -20,5 +20,7 @@ class person {
         person();
         person(std::string arg_name, int arg_age);
         Json::Value dump2json();
+        std::string getname();
+        int getage();
 };
 #endif
