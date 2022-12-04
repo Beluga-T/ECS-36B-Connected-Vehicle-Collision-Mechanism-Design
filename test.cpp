@@ -27,7 +27,7 @@ int main()
 
     SS2 = motor2.CAL_SURVIVING_SCORE();
     cout<<driver2.getname()<<" surviving score is "<<SS2<<endl;
-    SS1=SS2;
+    // SS1=SS2;
     ALERT(SS1,SS2);
     return 0;
 
